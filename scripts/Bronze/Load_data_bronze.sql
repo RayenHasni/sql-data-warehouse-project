@@ -12,7 +12,7 @@ Parameters:
     None
 
 Usage Example:
-    EXEC bronze.load_bronze;
+    EXEC bronze.load_data;
 ===============================================================================
 */
 
