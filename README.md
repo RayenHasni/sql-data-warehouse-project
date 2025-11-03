@@ -7,6 +7,7 @@ This project demonstrates a data warehousing and analytics solution, from buildi
 ## 🏗️ Data Architecture
 
 The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
+
 ![Data Architecture](https://github.com/RayenHasni/sql-data-warehouse-project/blob/main/docs/Data%20Architecture.png)
 
 1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
