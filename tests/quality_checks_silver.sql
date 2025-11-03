@@ -100,7 +100,7 @@ ORDER BY sls_sales
 -- ====================================================================
 --  1. Data Standardization and Consistency
 SELECT DISTINCT cntry 
-FROM bronze.erp_loc_a101
+FROM silver.erp_loc_a101
 
 
 -- ====================================================================
@@ -123,9 +123,9 @@ FROM silver.erp_cust_az12
 --  1. Check for unwanted spaces
 -- Expectations : No result
 SELECT * 
-FROM bronze.erp_px_cat_g1v2 
+FROM silver.erp_px_cat_g1v2 
 WHERE cat != trim(cat) or subcat != TRIM(subcat) or maintenance != TRIM(maintenance)
 
 -- 2. Data Standardization and Consistency
 SELECT DISTINCT cat, subcat, maintenance
-FROM bronze.erp_px_cat_g1v2 
+FROM silver.erp_px_cat_g1v2 
