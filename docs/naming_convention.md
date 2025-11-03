@@ -18,8 +18,7 @@ This document outlines the naming conventions used for schemas, tables, views, c
 ## **General Principles**
 
 - **Naming Conventions**: Use snake_case, with lowercase letters and underscores (`_`) to separate words.
-- **Language**: Use English for all names.
-- **Avoid Reserved Words**: Do not use SQL reserved words as object names.
+- **Language**: English for all names.
 
 ## **Table Naming Conventions**
 
@@ -73,9 +72,8 @@ This document outlines the naming conventions used for schemas, tables, views, c
 ## **Stored Procedure**
 
 - All stored procedures used for loading data must follow the naming pattern:
-- **`load_<layer>`**.
+- **`<layer>.load_data`**.
   
   - `<layer>`: Represents the layer being loaded, such as `bronze`, `silver`, or `gold`.
   - Example: 
-    - `load_bronze` → Stored procedure for loading data into the Bronze layer.
-    - `load_silver` → Stored procedure for loading data into the Silver layer.
+    - `bronze.load_data` → Stored procedure for loading data into the Bronze layer.
