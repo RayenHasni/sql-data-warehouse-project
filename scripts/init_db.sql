@@ -10,11 +10,9 @@ Script purpose :
 use master;
 go
   
-
 -- Create the 'datawarehouse' database  
 create database DataWarehouse;
 go
-
 
 -- Create schemas
 create schema bronze;
