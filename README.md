@@ -15,7 +15,7 @@ The data architecture for this project follows Medallion Architecture **Bronze**
 3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
 
 ---
-## 📖 Project Overview
+## 📖 Project Overview [Link](https://app.powerbi.com/view?r=eyJrIjoiNjMyOWNiMWEtZjg5ZS00MGNkLTk0MDYtMjgzOWFiZmYxZDM4IiwidCI6ImRiZDY2NjRkLTRlYjktNDZlYi05OWQ4LTVjNDNiYTE1M2M2MSIsImMiOjl9)
 
 This project involves:
 
