@@ -42,16 +42,30 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 
 ---
 
-### 📈 BI: Analytics & Reporting (Data Analysis)
+## 📈 BI: Analytics & Reporting (Data Analysis)
 
-#### Objective
-Develop SQL-based analytics to deliver detailed insights into:
+### Overview
+An interactive **Power BI dashboard** was developed to analyze key business metrics using SQL-based data transformations.  
+The dashboard provides actionable insights into:
+
 - **Customer Behavior**
 - **Product Performance**
 - **Sales Trends**
 
-These insights empower stakeholders with key business metrics, enabling strategic decision-making.  
+These insights help stakeholders monitor performance, identify trends, and support data-driven decision making.
 
+### Dashboard Preview
+![Power BI Dashboard](docs/Sales_Dashboard.png)
+
+### Key Features
+- KPI overview for sales performance
+- Product-level performance analysis
+- Customer purchasing behavior insights
+- Time-based sales trend analysis
+- Interactive filtering for deeper exploration
+
+### Tools Used
+- **Power BI** – Data visualization and dashboard creation  
 
 ---
 
