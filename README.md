@@ -54,7 +54,7 @@ The dashboard provides actionable insights into:
 
 These insights help stakeholders monitor performance, identify trends, and support data-driven decision making.
 
-### Dashboard Preview
+### Dashboard Preview [(Link)](https://app.powerbi.com/view?r=eyJrIjoiNjMyOWNiMWEtZjg5ZS00MGNkLTk0MDYtMjgzOWFiZmYxZDM4IiwidCI6ImRiZDY2NjRkLTRlYjktNDZlYi05OWQ4LTVjNDNiYTE1M2M2MSIsImMiOjl9)
 ![Power BI Dashboard](docs/Sales_Dashboard.png)
 
 ### Key Features
